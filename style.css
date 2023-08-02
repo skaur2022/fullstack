@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+nav{
+    border-bottom: 7.5px solid gray;
+    word-spacing: 2vw;
+    padding: 1vw 1.5vw;
+    text-align: right;
+    background-color: rgb(31, 31, 31);
+}
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.25vw;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    nav a:hover{
+        color:rgb(255, 221, 67);
+    }
+nav p{
+    word-spacing: 0;
+    float: left;
+    font-size: 1.5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html{
+    background-color: black;
+}
+.name{
+    grid-area: name;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Corinthia', cursive;
+    transform: translate(7vw, 12.5vw);
+}
+.title{
+    grid-area: title;
+    text-align: center;
+    margin-top: 7.5vw;
+    font-size: 1.1vw;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    transform: translate(7vw, 1vw);
+}
+.text{
+    grid-area: text;
+    margin: 1.25vw 10vw;
+    text-align: center;
+    font-size: 1vw;
+    transform: translate(7vw, -1.5vw);
+    font-family: 'Rubik', sans-serif;
+}
+.image{
+    grid-area: image;
+    margin: 5vw 10vw;
+    padding-right: 10vw;
+    transform: translateY(3vw);
+}
+    .image img{
+        height: 30vw;
+        width: 30vw;
+    }
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-areas:
+    "name image image"
+    "title image image"
+    "text image image"
+    "button image image";
+}
+.button{
+    background-color: rgb(255, 221, 67);
+    border: black solid 2px;
+    border-radius: 5vw;
+    width: 7.5vw;
+    padding: .5vw 1vw;
+    font-size: 1.25vw;
+    text-align: center;
+    margin: auto;
+    transform: translate(7vw, -6.5vw);
+}
+    .button:hover{
+        background-color: rgb(216, 166, 2);
+    }
+    .button a{
+        color: black;
+        text-decoration: none;
+        font-family: 'Work Sans', sans-serif;
+    }
+/*The start of the next webpage, the projects web page*/
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        justify-content: center;
+    }
+    .projects a{
+        background-color: rgb(255, 221, 67);
+        border-radius: 2.5vw;
+        height: 10.5vw;
+        width: 10vw;
+        padding: 1vw 1.5vw;
+        text-align: center;
+        font-size: 1.25vw;   
+        margin: 1.5vw 3vw;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Readex Pro', sans-serif;
+        text-decoration: underline;
+        color: black;
+    }
+    .projects a:hover{
+        background-color: rgb(216, 166, 2);
+    }
+    .projects a img{
+        height: 8vw;
+        width: 8vw;
+        padding-top: .5vw;
+        border-radius: 1.5vw;
+    }
+    .projects a:hover img{
+        height: 8.5vw;
+        width: 8.5vw;
+    }
+.top{
+    text-align: center;
+    margin: 5vw;
+    margin-bottom: 3vw;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.5vw;
+
+}
+#resume{
+    background-color: rgb(255, 221, 67);
+    border-radius: 2.5vw;
+    height: 10.5vw;
+    width: 30vw;
+    padding: 1vw 1.5vw;
+    text-align: center;
+    font-size: 1.25vw;   
+    margin: 1.5vw 3vw;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+#resume p{
+    color: black;
+}
+#resume img{
+    height: 8vw;
+    width: 15vw;
+    padding-top: .5vw;
+    border-radius: 1.5vw;
+}
+#resume:hover{
+    background-color: rgb(216, 166, 2);
+}
+#resume:hover img{
+    height: 8.5vw;
+    width: 15.5vw;
+}
+    /* .projects a{
+        background-color: rgb(31, 31, 31);
+        color: white;
+        text-decoration: none;
+        padding: .5vw;  
+        border-radius: 2vw;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 7.5vw;
+        margin-left: .5vw;
+        margin-top: 2.5vw;
+    }
+    .projects a:hover{
+        background-color: gray;
+        color: black;
+
+    } */
